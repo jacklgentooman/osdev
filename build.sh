@@ -14,7 +14,7 @@ unset PKG_CONFIG_LIBDIR
 pushd toolchain
 ./prepare.sh
 ./install.sh
-./activate.sh
+. activate.sh
 popd
 # Build the userspace tools:
 pushd userspace
